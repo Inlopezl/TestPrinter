@@ -12,6 +12,7 @@ module.exports = {
         file = file == '' ? [] : file;
         const object = JSON.parse(file);
         return object
+
     },
     new: function(data, files) {
 
@@ -19,6 +20,7 @@ module.exports = {
         let newForm = {
             id: forms.length > 0 ? forms[forms.length - 1].id + 1 : 1,
             date: data.date,
+            client: data.client,
             sector: data.sector,
             route: data.route,
             package: data.package

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impresion</title>
+</head>
+
+<body>
+    <h2>Mnet</h2>
+
+    <article>
+
+
+        <% data.forEach(element => { %>
+
+            <h2>
+
+                <%= element.route +" "+ element.sector + " " + element.client + " " + element.date + " " %>
+
+            </h2>
+
+            <% }) %>
+
+
+    </article>
+
+</body>
+
+</html>

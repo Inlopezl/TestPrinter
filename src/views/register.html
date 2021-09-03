@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>MercadoLiebre</title>
+    <title>Mnet</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/normalize.css">
@@ -27,45 +27,48 @@
                 <input type="date" name="date" id="name" required>
             </fieldset>
 
+            <fieldset class="element-form" id="buy-sell">
+                <label class="name-category">Cliente</label>
+                <input type="text" name="client" id="address" placeholder="Escriba el cliente" required>
+                </fieldet>
 
-            <fieldset class="element-form">
-                <label class="name-category">Seleccione el sector</label>
+                <fieldset class="element-form">
+                    <label class="name-category">Seleccione el sector</label>
 
-                <div class="element-form" id="buy-sell">
+                    <div class="element-form" id="buy-sell">
 
-
-                    <label class="check">Secos
-                    <input type="radio" name="type-user" >
+                        <label class="check">Secos
+                    <input type="radio" name="sector" value="Secos">
                 </label>
 
-                    <label class="check">Frescos
-                    <input type="radio" name="type-user" >
+                        <label class="check">Frescos
+                    <input type="radio" name="sector" value="Frescos">
                 </label>
-                    <label class="check">Congelados
-                    <input type="radio" name="type-user" >
+                        <label class="check">Congelados
+                    <input type="radio" name="sector" value="Congelados" >
                 </label>
+                    </div>
+
+                </fieldset>
+
+                <fieldset class="element-form" id="buy-sell">
+                    <label class="name-category">Ruta</label>
+                    <input type="text" name="route" id="address" placeholder="Escriba la ruta" required>
+
+                </fieldset>
+
+                <fieldset class="element-form" id="buy-sell">
+
+                    <label class="name-category">Cantidad de bultos</label>
+                    <input type="text" name="package" id="address" placeholder="describa la cantidad de bultos" required>
+
+                </fieldset>
+
+                <!-- onclick="window.print()" // pop up-->
+                <div class="element-form">
+                    <button type="submit" class="button" href="/printer">IMPRIMIR </button>
+                    <button type="reset" class="button">REINICIAR</button>
                 </div>
-
-            </fieldset>
-
-            <fieldset class="element-form" id="buy-sell">
-                <label class="name-category">Ruta</label>
-                <input type="text" name="sector" id="address" placeholder="Escriba la ruta" required>
-
-            </fieldset>
-
-            <fieldset class="element-form" id="buy-sell">
-
-                <label class="name-category">Cantidad de bultos</label>
-                <input type="text" name="sector" id="address" placeholder="describa la cantidad de bultos" required>
-
-            </fieldset>
-
-
-            <div class="element-form">
-                <button type="submit" class="button" onclick="window.print()">IMPRIMIR </button>
-                <button type="reset" class="button">REINICIAR</button>
-            </div>
 
         </form>
 
