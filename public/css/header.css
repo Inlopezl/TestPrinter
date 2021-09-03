@@ -1,0 +1,125 @@
+*{box-sizing: border-box;}
+
+
+header{
+    font-family: 'Roboto', sans-serif;
+    background-color: #EAC926;
+    font-size: 1em;
+    padding: 25px 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+header .fas{
+    font-size: 1rem;
+}
+
+header p{
+    width: 100%;
+    margin: 10px auto;
+}
+
+
+.fa-search{
+    color: #666;
+    font-size: 2em;
+}
+
+header form{
+    width: 50%;
+    display: flex;
+    background-color: #fff;
+    border-radius: 8px;
+    flex-flow: row wrap;
+    margin-left: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header input{
+    width: 70%;
+    border: 0px;
+    padding: 10px;
+    border-radius: 8px 0 0 8px;
+}
+
+header button{
+    border: none;
+    width: 30%;
+    background-color: white;
+    border-radius: 0px 8px 8px 0px;
+    max-width: 20px;
+    padding-right: 25px;
+}
+
+header nav{
+    display: none;  
+}
+
+header .logo{
+    width: 40%;
+    padding: 10px 5px;
+}
+
+header li{
+    list-style: none;
+}
+
+.burger-menu{
+    width: 100%;
+    text-align: center;
+}
+
+.burger-menu i{
+    color: #fff;
+    background-color: #1259c3;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 768px){
+    
+    header{
+        padding-bottom: 5px;
+    }
+    
+    header .logo{
+        max-width: 120px;
+    }
+
+    header p{
+        width: 30%;
+    }
+
+    .burger-menu{ 
+        display: none;
+    }
+    
+    header nav{
+        width: 95%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        margin: 15px auto;
+    }
+
+    header nav ul{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    header nav ul li{
+        margin: 0 5px;  
+    }
+
+    header nav ul li a{
+        color: black;  
+        text-decoration: none;
+    }
+
+
+} /* MQ END */ 

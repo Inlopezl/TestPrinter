@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer{
+    padding: 15px 10px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+footer article{
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+footer section{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+footer p{
+    text-align: center;
+    width: 100%;
+}
+
+footer h3{
+    color: #666;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer i{
+    font-size: 2em;
+    color:#1259c3;
+    transition: all .35s ease-in;
+}
+
+footer i:hover{
+    color: rebeccapurple;
+}
+
+footer p{
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width:986px) {
+    footer section article{
+        width: 30vw;
+    }
+}
+
+
+

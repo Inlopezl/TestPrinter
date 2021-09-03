@@ -1,0 +1,65 @@
+main form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #ebebeb;
+    padding-bottom: 30px;
+}
+
+.element-form {
+    max-width: 720px;
+    width: 90%;
+    margin-top: 30px;
+}
+
+.element-form input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    border: 0 solid;
+}
+
+.name-category {
+    width: 100%;
+    font-weight: bold;
+    margin: 20px 0px;
+    padding: 20px;
+}
+
+#interest {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+#buy-sell {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.name-category {
+    width: 100%;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+div input[type="date"] {
+    margin-top: 20px;
+}
+
+div input[type="text"] {
+    margin-top: 20px;
+}
+
+.button {
+    border: 0px;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+    background-color: #fff;
+    color: #1259c3;
+}
